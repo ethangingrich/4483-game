@@ -381,6 +381,7 @@ MonoBehaviour:
   minRadius: 0
   score: 5
   attackSpeed: 1
+  hurtSound: {fileID: 8300000, guid: 56da9ab77e941a64bac4f17e7cac5da2, type: 3}
   animator: {fileID: 2766412561482717902}
 --- !u!114 &5161598399361850056
 MonoBehaviour:
@@ -397,6 +398,7 @@ MonoBehaviour:
   maxHealth: 20
   isAlive: 0
   healthDrop: {fileID: 9126325516841483109, guid: 280349993b9ef204dbb0a8923276f2bc, type: 3}
+  deadSound: {fileID: 0}
 --- !u!61 &5161598399361850060
 BoxCollider2D:
   m_ObjectHideFlags: 0

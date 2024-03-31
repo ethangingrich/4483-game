@@ -11,6 +11,7 @@ public class Bomb : MonoBehaviour
     public static float damageMultiplier = 1;
     public GameObject fromWhere;
     public float radius = 2;
+    public AudioClip bombSound;
 
     void FixedUpdate()
     {
@@ -36,6 +37,7 @@ public class Bomb : MonoBehaviour
                     }
                 }
 
+                AudioSource.PlayClipAtPoint(bombSound, transform.position);
                 Destroy(gameObject);
             }
         }

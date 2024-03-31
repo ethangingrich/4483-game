@@ -291,8 +291,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+  baseDamage: 5
   timeToDelete: 0.7
   fromWhere: {fileID: 0}
+  projectileSound: {fileID: 8300000, guid: ebdb81b08b202b840adb4b4952d0ec91, type: 3}
 --- !u!1 &2929636413538207865
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class Health : MonoBehaviour
     private Slider _healthbar;
     public static float score = 0;
     public static float maxScore = 200;
+    public AudioClip deadSound;
+    public AudioClip hurtSound;
 
     // Regen variables
     private float _timeSinceLastHit = 0;
@@ -68,6 +70,7 @@ public class Health : MonoBehaviour
 
             if (gameObject.CompareTag("Player"))
             {
+                AudioSource.PlayClipAtPoint(deadSound, transform.position);
                 DeathMenu.OpenDeathMenu();
                 score = 0;
 
@@ -87,6 +90,12 @@ public class Health : MonoBehaviour
     public void UpdateHealth(float change)
     {
         _timeSinceLastHit = 0;
+
+        if (gameObject.CompareTag("Player")) {
+            if (change < 0) {
+                AudioSource.PlayClipAtPoint(hurtSound, transform.position);
+            }
+        }
 
         if (GetComponent<Char1Movement>() == null)
         {
