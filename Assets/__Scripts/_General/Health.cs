@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     private Slider _scorebar;
     private float _health;
     private Slider _healthbar;
+    public Text _healthtext;
     public static float score = 0;
     public static float maxScore = 200;
     public AudioClip deadSound;
@@ -31,6 +32,9 @@ public class Health : MonoBehaviour
         if (gameObject.CompareTag("Player"))
         {
             _healthbar = GameObject.FindGameObjectWithTag("PlayerHealth").GetComponent<Slider>();
+            _healthtext = GameObject.Find("HPText").GetComponent<Text>();
+            _healthtext.text = "HP : 100";
+
         }
 
         if (gameObject.CompareTag("Enemy"))
@@ -78,6 +82,7 @@ public class Health : MonoBehaviour
                 gameObject.GetComponent<MeleeAttack>().damage = gameObject.GetComponent<MeleeAttack>().baseDamage;
                 Projectile.damageMultiplier = 1;
                 Bomb.damageMultiplier = 1;
+
             }
 
             Destroy(gameObject);
@@ -95,6 +100,7 @@ public class Health : MonoBehaviour
             if (change < 0) {
                 AudioSource.PlayClipAtPoint(hurtSound, transform.position);
             }
+            _healthtext.text = " HP: " + _health;
         }
 
         if (GetComponent<Char1Movement>() == null)
@@ -127,6 +133,7 @@ public class Health : MonoBehaviour
         {
             _healthbar.value = _health;
         }
+
     }
 
     private void Regen()
