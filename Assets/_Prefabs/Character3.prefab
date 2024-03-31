@@ -217,6 +217,9 @@ MonoBehaviour:
   maxHealth: 100
   isAlive: 0
   healthDrop: {fileID: 0}
+  deadSound: {fileID: 8300000, guid: abc68216420723949b433d357f0594ce, type: 3}
+  hurtSound: {fileID: 8300000, guid: 56da9ab77e941a64bac4f17e7cac5da2, type: 3}
+  healSound: {fileID: 8300000, guid: 1909fa26364f2284ba630d0c0c3755b9, type: 3}
 --- !u!114 &519279998046998796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rangeProjectile: {fileID: 2929636413291127817, guid: 51fb219df599e3b47b1839e5a63cd131, type: 3}
   projSpeed: 15
+  fireRate: 0.5
 --- !u!114 &519279998046998798
 MonoBehaviour:
   m_ObjectHideFlags: 0

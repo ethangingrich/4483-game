@@ -10,12 +10,14 @@ public class Collectable : MonoBehaviour
     public int healthIncrease = 20;
     // How much to increase the player's damage by if it is a damage pickup
     public int damageMultiple = 2;
+    public AudioClip healSound;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         // When player collects object increament counter
         if (collision.gameObject.CompareTag("Player"))
         {
+            AudioSource.PlayClipAtPoint(healSound, transform.position);
             if (gameObject.CompareTag("Collectable"))
             {
                 BossRoomDoor.IncrementCollectibles();

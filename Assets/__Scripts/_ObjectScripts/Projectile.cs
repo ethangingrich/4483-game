@@ -9,10 +9,14 @@ public class Projectile : MonoBehaviour
     public static float damageMultiplier = 1;
     public float timeToDelete = 0.7f;
     public GameObject fromWhere;
+    public AudioClip projectileSound;
 
     private void Start()
     {
         damage = baseDamage;
+        if (projectileSound != null) {
+            AudioSource.PlayClipAtPoint(projectileSound, transform.position);
+        }
     }
 
     private void Update()

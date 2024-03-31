@@ -661,6 +661,7 @@ MonoBehaviour:
   baseDamage: 8.5
   timeToDelete: 0.7
   fromWhere: {fileID: 0}
+  projectileSound: {fileID: 8300000, guid: b245c7a1bb9182641b26cf1232d9f467, type: 3}
 --- !u!50 &3488966518008240003
 Rigidbody2D:
   serializedVersion: 4

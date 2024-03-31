@@ -148,6 +148,7 @@ MonoBehaviour:
   speedMultiplier: 1.5
   healthIncrease: 20
   damageMultiple: 2
+  healSound: {fileID: 8300000, guid: 1909fa26364f2284ba630d0c0c3755b9, type: 3}
 --- !u!1 &9126325517039093614
 GameObject:
   m_ObjectHideFlags: 0

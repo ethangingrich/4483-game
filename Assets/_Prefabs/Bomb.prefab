@@ -131,6 +131,7 @@ MonoBehaviour:
   damage: 20
   fromWhere: {fileID: 0}
   radius: 2
+  bombSound: {fileID: 8300000, guid: 1fc166a65b7231841bb064b086768384, type: 3}
 --- !u!1 &7760925822614049639
 GameObject:
   m_ObjectHideFlags: 0
