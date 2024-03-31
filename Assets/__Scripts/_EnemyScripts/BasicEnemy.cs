@@ -10,6 +10,7 @@ public class BasicEnemy : MonoBehaviour
     public float minRadius = 0;
     public float score = 5;
     public float attackSpeed = 1;
+    public Animator animator;
     protected GameObject _target;
     protected float _attackCooldown;
     protected float _attackRadius = 1;
@@ -37,6 +38,15 @@ public class BasicEnemy : MonoBehaviour
         {
             float step = speed * Time.fixedDeltaTime;
             transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, step);
+            // Enemy animator calculations
+            Vector2 distance = _target.transform.position - transform.position;
+            animator.SetFloat("Speed", 0.1f);
+            animator.SetFloat("Horizontal", distance.x);
+            animator.SetFloat("Vertical", distance.y);
+
+        } else
+        {
+            animator.SetFloat("Speed", 0f);
         }
 
         if (distanceFromTarget < _attackRadius)
