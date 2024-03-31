@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: d2b67aeca284b2a49b6edd32673d98c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7992885144485610722
+    second: RangeMob_0
+  - first:
+      213: 7712364246882415744
+    second: RangeMob_1
+  - first:
+      213: 2643397069061588275
+    second: RangeMob_2
+  - first:
+      213: -9006601275852218006
+    second: RangeMob_3
+  - first:
+      213: -5736870307983009292
+    second: RangeMob_4
+  - first:
+      213: -1225325911253114382
+    second: RangeMob_5
+  - first:
+      213: -1246489340132101634
+    second: RangeMob_6
+  - first:
+      213: -3962869036237477685
+    second: RangeMob_7
+  - first:
+      213: 8763713273966718034
+    second: RangeMob_8
+  - first:
+      213: 9205114208775145450
+    second: RangeMob_9
+  - first:
+      213: -2044497500402032542
+    second: RangeMob_10
+  - first:
+      213: 7286332924517212580
+    second: RangeMob_11
+  - first:
+      213: -9059477048513144458
+    second: RangeMob_12
+  - first:
+      213: -5665538064397105184
+    second: RangeMob_13
+  - first:
+      213: -6625505408379622260
+    second: RangeMob_14
+  - first:
+      213: 4268341519031126099
+    second: RangeMob_15
+  - first:
+      213: 3305636544663391677
+    second: RangeMob_16
+  - first:
+      213: -2764738559256307073
+    second: RangeMob_17
+  - first:
+      213: -106549491622121282
+    second: RangeMob_18
+  - first:
+      213: 7116039983886300148
+    second: RangeMob_19
+  - first:
+      213: -4338642831498693985
+    second: RangeMob_20
+  - first:
+      213: -7745466144749721429
+    second: RangeMob_21
+  - first:
+      213: 639191015607672489
+    second: RangeMob_22
+  - first:
+      213: 1411029502940029688
+    second: RangeMob_23
+  - first:
+      213: -2196079981812497629
+    second: RangeMob_24
+  - first:
+      213: 1985963251905559789
+    second: RangeMob_25
+  - first:
+      213: -2578150608054114169
+    second: RangeMob_26
+  - first:
+      213: -4212261340677194826
+    second: RangeMob_27
+  - first:
+      213: -4849049503893003015
+    second: RangeMob_28
+  - first:
+      213: -6074145285967297916
+    second: RangeMob_29
+  - first:
+      213: -4989773071436584703
+    second: RangeMob_30
+  - first:
+      213: 4214563586336057139
+    second: RangeMob_31
+  - first:
+      213: -2058579646693795569
+    second: RangeMob_32
+  - first:
+      213: -658310861887427936
+    second: RangeMob_33
+  - first:
+      213: -4795854396348664290
+    second: RangeMob_34
+  - first:
+      213: -4873661595869878943
+    second: RangeMob_35
+  - first:
+      213: -7228487595869422706
+    second: RangeMob_36
+  - first:
+      213: 892599509521833077
+    second: RangeMob_37
+  - first:
+      213: -7672554351400077993
+    second: RangeMob_38
+  - first:
+      213: -1703859134675536396
+    second: RangeMob_39
+  - first:
+      213: 6733699507234491244
+    second: RangeMob_40
+  - first:
+      213: -1052309343397504116
+    second: RangeMob_41
+  - first:
+      213: -8863810890743628919
+    second: RangeMob_42
+  - first:
+      213: -7264077991658168290
+    second: RangeMob_43
+  - first:
+      213: 6066266278879747507
+    second: RangeMob_44
+  - first:
+      213: -437992549909288002
+    second: RangeMob_45
+  - first:
+      213: -4693562026346287326
+    second: RangeMob_46
+  - first:
+      213: -3417335567797490555
+    second: RangeMob_47
+  - first:
+      213: 5366796272301358205
+    second: RangeMob_48
+  - first:
+      213: -7757944853590337109
+    second: RangeMob_49
+  - first:
+      213: 8917493519092450624
+    second: RangeMob_50
+  - first:
+      213: -1634249715868381673
+    second: RangeMob_51
+  - first:
+      213: -5873065052509203076
+    second: RangeMob_52
+  - first:
+      213: 4932903031673189091
+    second: RangeMob_53
+  - first:
+      213: -7564515000710158037
+    second: RangeMob_54
+  - first:
+      213: -2308141871720877725
+    second: RangeMob_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RangeMob_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b30782f41931190800000000000000
+      internalID: -7992885144485610722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08479d1bb62d70b60800000000000000
+      internalID: 7712364246882415744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33589b501ab3fa420800000000000000
+      internalID: 2643397069061588275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61af3fcbdf120380800000000000000
+      internalID: -9006601275852218006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9df22a9da8260b0800000000000000
+      internalID: -5736870307983009292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f12da56394cefee0800000000000000
+      internalID: -1225325911253114382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef17d11ac8493bee0800000000000000
+      internalID: -1246489340132101634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8aba39b9f0109c0800000000000000
+      internalID: -3962869036237477685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c69206ac6fe9970800000000000000
+      internalID: 8763713273966718034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae781f22a922fbf70800000000000000
+      internalID: 9205114208775145450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260ec580b5c70a3e0800000000000000
+      internalID: -2044497500402032542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1e411b0314e1560800000000000000
+      internalID: 7286332924517212580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d190af95464280800000000000000
+      internalID: -9059477048513144458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e70822d527ff51b0800000000000000
+      internalID: -5665538064397105184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c6a1c3fe97d04a0800000000000000
+      internalID: -6625505408379622260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RangeMob_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358c6e53ff13c3b30800000000000000
+      internalID: 4268341519031126099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

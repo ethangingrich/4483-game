@@ -424,6 +424,8 @@ GameObject:
   - component: {fileID: 8072469146657577090}
   - component: {fileID: 8072469146657577091}
   - component: {fileID: 8072469146657577119}
+  - component: {fileID: -6972143856473489806}
+  - component: {fileID: -3269644694467338353}
   m_Layer: 7
   m_Name: TempEnemy2
   m_TagString: Enemy
@@ -486,8 +488,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.07309832, g: 0.7088728, b: 0.7264151, a: 1}
+  m_Sprite: {fileID: 7712364246882415744, guid: d2b67aeca284b2a49b6edd32673d98c4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -530,6 +532,7 @@ MonoBehaviour:
   minRadius: 0
   score: 10
   attackSpeed: 1
+  animator: {fileID: -6972143856473489806}
   rangeProjectile: {fileID: 3292813943776123982, guid: 44357e868d8ad4aecbbdd190974c7dd5, type: 3}
   projSpeed: 20
 --- !u!61 &8072469146657577119
@@ -549,7 +552,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -558,3 +561,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &-6972143856473489806
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072469146657577092}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2e87a435fb75b040a552f44a4d28b4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-3269644694467338353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072469146657577092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844b8f70031e2ac45bbd908f13115231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.5
+  damage: 10
+  maxRadius: 8
+  minRadius: 0
+  score: 5
+  attackSpeed: 1
+  animator: {fileID: -6972143856473489806}
